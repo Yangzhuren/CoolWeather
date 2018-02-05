@@ -22,6 +22,14 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+//    添加操作数据库的依赖
+    implementation 'org.litepal.android:core:1.6.1'
+    // http
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    // json数据解析
+    implementation 'com.google.code.gson:gson:2.7'
+    // 图片加载
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
